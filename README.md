@@ -371,3 +371,4 @@ class UserServiceTest {
 
 假设写的操作执行完后数据有可能还没同步到从库，然后读的操作也开始执行了，如果这个读取的程序走的依然是从库的话，那么就会出现数据不一致的现象了，这是我们不允许的。
 
+# SpringBootReadAndWriteAloneMysql
